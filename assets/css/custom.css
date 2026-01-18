@@ -12,11 +12,13 @@ section {
   padding: 2rem; /* keep or adjust */
 }
 
-/* 3) Sidebar area mauve */
+/* Make sidebar full-height */
 header {
   background-color: #915f6d;
   position: relative;
+  min-height: 100vh;   /* KEY LINE */
 }
+
 
 /* Extend header background to the LEFT edge of the viewport */
 header::before {
