@@ -1,4 +1,4 @@
 ---
-title: "Agreements"
+title: "TBRG | Agreements"
 permalink: /agreements/
 ---
