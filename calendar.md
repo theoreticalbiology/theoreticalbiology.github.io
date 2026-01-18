@@ -10,15 +10,3 @@ layout: default
   scrolling="no">
   </iframe>
   </div>
-
-/* Responsive Google Calendar embed */
-.calendar-embed {
-  width: 100%;
-}
-
-.calendar-embed iframe {
-  width: 100%;
-  height: 80vh;        /* scales with viewport */
-  min-height: 600px;  /* prevents it being too short */
-  border: 0;
-}
