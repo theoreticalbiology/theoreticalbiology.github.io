@@ -100,14 +100,15 @@ section a:hover {
 }
 
 /* Google Calendar embed styling */
-.calendar-frame {
+.calendar-embed {
+  width: 100%;
   border: 3px solid #8FAF9A;   /* sage green */
   border-radius: 8px;
-  overflow: hidden;            /* clips iframe corners */
-  background: #faf9f6;         /* light backdrop while loading */
+  overflow: hidden;
+  background: #faf9f6;
 }
 
-.calendar-frame iframe {
+.calendar-embed iframe {
   width: 100%;
   height: 80vh;
   min-height: 600px;
