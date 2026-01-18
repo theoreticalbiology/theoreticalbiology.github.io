@@ -1,60 +1,43 @@
-/* ===== Color palette =====
-   Mauve: #915f6d
-   Dark:  #28282B
-   Light: #faf9f6
-*/
-
-/* Page background fills the full viewport */
+/* 1) Make the whole viewport charcoal (fills top + far right) */
 body {
-  background-color: #915f6d;
+  background-color: #28282B;
   color: #faf9f6;
 }
 
-/* Entire right-hand column */
+/* 2) Let the right column show the body charcoal */
 section {
-  background-color: #28282B; /* charcoal */
-  color: #faf9f6;
-  min-height: 100vh;         /* fill vertical space */
-  padding: 2rem;
-}
-
-
-/* Links in the main content */
-section a {
-  color: #915f6d;
-}
-
-section a:hover {
-  color: #915f6d;
-}
-
-/* Header: keep it transparent so the mauve body shows through */
-header {
   background: transparent;
+  color: #faf9f6;
+  min-height: 100vh;
+  padding: 2rem; /* keep or adjust */
 }
 
-/* Header text + links should be dark so they’re readable on mauve */
+/* 3) Sidebar area mauve */
+header {
+  background-color: #915f6d;
+  position: relative;
+}
+
+/* Extend header background to the LEFT edge of the viewport */
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 100%;
+  width: 100vw;
+  height: 100%;
+  background-color: #915f6d;
+}
+
+/* Header text colors (pick one set) */
 header h1,
 header h1 a,
 header p,
 header a,
 header p.view a {
-  color: #28282B;
+  color: #28282B; /* or #faf9f6 if you want light text */
 }
 
-/* Optional: remove underline in header links, keep in content */
-header a {
-  text-decoration: none;
-}
-
-header a:hover {
-  text-decoration: underline;
-}
-
-/* The theme uses .view for the GitHub link block */
-header p.view a {
-  color: #28282B !important;
-}
 
 /* Sidebar-style navigation under header */
 .sidebar-nav {
