@@ -18,8 +18,17 @@ header {
   background-color: #915f6d;
 }
 
-/* Sidebar text */
+/* Ensure header text is readable on the new header background */
 header h1,
-header p {
-  color: #28282B;
+header h1 a,
+header h2,
+header p,
+header a {
+  color: #28282B !important;
 }
+
+/* The theme uses .view for the GitHub link block */
+header p.view a {
+  color: #28282B !important;
+}
+
