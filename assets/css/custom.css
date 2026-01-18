@@ -1,0 +1,25 @@
+/* Background */
+body {
+  background-color: #f5f5f5;
+  color: #222222;
+}
+
+/* Links */
+a {
+  color: #2a7ae2;
+}
+
+a:hover {
+  color: #174ea6;
+}
+
+/* Sidebar/header background */
+header {
+  background-color: #e6efe6;
+}
+
+/* Sidebar text */
+header h1,
+header p {
+  color: #1f2d1f;
+}
