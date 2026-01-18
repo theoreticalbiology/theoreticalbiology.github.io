@@ -3,6 +3,8 @@ title: "TBRG | Calendar"
 permalink: /calendar/
 layout: default
 ---
+Our first reading is Eugene Koonin's _The Logic of Chance_. The text is available online via the UIC Library. [Get in touch](mailto:theoreticalbiology@proton.me) if you need help finding a copy.
+
 <div class="calendar-embed">
 <iframe src="https://calendar.google.com/calendar/embed?src=45b751cf91b799869137518a49e26a0c44684497c0700bd68e7bad026109d70b%40group.calendar.google.com&ctz=UTC&mode=AGENDA" 
   style="border: 0"
