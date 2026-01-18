@@ -55,3 +55,29 @@ header p.view a {
   color: #28282B !important;
 }
 
+/* Sidebar-style navigation under header */
+.sidebar-nav {
+  margin-top: 1.5rem;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav li {
+  margin-bottom: 0.5rem;
+}
+
+.sidebar-nav a {
+  color: #28282B;        /* header text color */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sidebar-nav a:hover {
+  text-decoration: underline;
+}
+
+
