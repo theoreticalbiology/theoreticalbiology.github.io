@@ -1,4 +1,4 @@
 ---
-title: "Contact"
+title: "TBRG | Contact"
 permalink: /contact/
 ---
