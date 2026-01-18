@@ -1,25 +1,25 @@
 /* Background */
 body {
-  background-color: #f5f5f5;
-  color: #222222;
+  background-color: #28282B;
+  color: #faf9f6;
 }
 
 /* Links */
 a {
-  color: #2a7ae2;
+  color: #915f6d;
 }
 
 a:hover {
-  color: #174ea6;
+  color: #915f6d;
 }
 
 /* Sidebar/header background */
 header {
-  background-color: #e6efe6;
+  background-color: #915f6d;
 }
 
 /* Sidebar text */
 header h1,
 header p {
-  color: #1f2d1f;
+  color: #28282B;
 }
