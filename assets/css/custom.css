@@ -58,6 +58,17 @@ header a:active {
   color: inherit;
 }
 
+/* Main content links: underline on hover, no bold */
+section a {
+  text-decoration: none;
+  font-weight: inherit;
+}
+
+section a:hover {
+  text-decoration: underline;
+  font-weight: inherit;
+}
+
 /* Sidebar-style navigation under header */
 .sidebar-nav {
   margin-top: 1.5rem;
