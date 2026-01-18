@@ -50,6 +50,14 @@ header a:hover {
   text-decoration: underline;
 }
 
+/* Prevent header links from turning blue on hover */
+header a,
+header a:hover,
+header a:visited,
+header a:active {
+  color: inherit;
+}
+
 /* Sidebar-style navigation under header */
 .sidebar-nav {
   margin-top: 1.5rem;
