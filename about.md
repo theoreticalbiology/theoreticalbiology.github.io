@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "TBRG | About"
 permalink: /about/
 ---
 The Theoretical Biology Reading Group meets monthly at the University of Illinois Chicago to discuss texts pertaining to fundamental issues in the life sciences.
