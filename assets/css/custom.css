@@ -110,8 +110,8 @@ section a:hover {
 
 .calendar-embed iframe {
   width: 100%;
-  height: 80vh;
-  min-height: 600px;
+  height: 30vh;
+  min-height: 300px;
   border: 0;                   /* remove default iframe border */
 }
 
