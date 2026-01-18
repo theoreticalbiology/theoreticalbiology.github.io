@@ -1,6 +1,3 @@
----
-title: "About"
----
 The Theoretical Biology Reading Group meets monthly on the University of Illinois Chicago campus to discuss texts pertaining to fundamental issues in the life sciences.
 
 Our formal training entails specialization in the techniques and worldview of a particular subdiscipline. We take a broader perspective; we interrogate new frameworks, reexamine old debates, and critique received views in evolution, ecology, development, physiology, and the history and philosophy of biology. We aim to ask new questions, or at least to ask old questions in new ways.
