@@ -1,5 +1,5 @@
 ---
-title: "Calendar"
+title: "TBRG | Calendar"
 permalink: /calendar/
 layout: default
 ---
