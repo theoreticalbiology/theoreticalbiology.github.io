@@ -10,13 +10,14 @@ body {
   color: #faf9f6;
 }
 
-/* Main content panel (right side) */
+/* Entire right-hand column */
 section {
-  background-color: #28282B;
+  background-color: #28282B; /* charcoal */
   color: #faf9f6;
+  min-height: 100vh;         /* fill vertical space */
   padding: 2rem;
-  border-radius: 8px;
 }
+
 
 /* Links in the main content */
 section a {
