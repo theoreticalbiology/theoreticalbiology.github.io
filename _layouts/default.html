@@ -18,6 +18,16 @@
         <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
         <p>{{ site.description }}</p>
 
+          <nav class="sidebar-nav">
+    <ul>
+      <li><a href="{{ "/about/" | relative_url }}">About</a></li>
+      <li><a href="{{ "/agreements/" | relative_url }}">Agreements</a></li>
+      <li><a href="{{ "/calendar/" | relative_url }}">Calendar</a></li>
+      <li><a href="{{ "/contact/" | relative_url }}">Contact</a></li>
+    </ul>
+  </nav>
+
+
         {% if site.logo %}
           <img src="{{ site.logo | relative_url }}" alt="Logo">
         {% endif %}
