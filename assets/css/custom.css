@@ -1,30 +1,53 @@
-/* Background */
+/* ===== Color palette =====
+   Mauve: #915f6d
+   Dark:  #28282B
+   Light: #faf9f6
+*/
+
+/* Page background fills the full viewport */
 body {
-  background-color: #28282B;
+  background-color: #915f6d;
   color: #faf9f6;
 }
 
-/* Links */
-a {
+/* Main content panel (right side) */
+section {
+  background-color: #28282B;
+  color: #faf9f6;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+/* Links in the main content */
+section a {
   color: #915f6d;
 }
 
-a:hover {
+section a:hover {
   color: #915f6d;
 }
 
-/* Sidebar/header background */
+/* Header: keep it transparent so the mauve body shows through */
 header {
-  background-color: #915f6d;
+  background: transparent;
 }
 
-/* Ensure header text is readable on the new header background */
+/* Header text + links should be dark so they’re readable on mauve */
 header h1,
 header h1 a,
-header h2,
 header p,
+header a,
+header p.view a {
+  color: #28282B;
+}
+
+/* Optional: remove underline in header links, keep in content */
 header a {
-  color: #28282B !important;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
 }
 
 /* The theme uses .view for the GitHub link block */
